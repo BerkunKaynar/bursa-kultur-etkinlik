@@ -12,7 +12,17 @@ export const Map = (props) => {
   // localstorage dan çek
   const storedCenter = JSON.parse(localStorage.getItem("selectedCenter"));
 
-  const initialCenter = storedCenter;
+  const initialCenter =
+    storedCenter &&
+    typeof storedCenter === "object" &&
+    "lat" in storedCenter &&
+    "lng" in storedCenter
+      ? storedCenter
+      : {
+          lat: 40.192169921,
+          lng: 29.046993381,
+        };
+
   // state kullanarak center değerini tut
   const [center, setCenter] = useState(initialCenter);
 
