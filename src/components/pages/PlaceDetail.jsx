@@ -78,7 +78,7 @@ const PlaceDetail = () => {
           <div className="sm:w-full sm:pl-8 sm:py-8 mt-4 pt-4 sm:mt-0 flex flex-col items-center">
             <p className="leading-relaxed text-lg mb-4">{place.detay}</p>
             <Link
-              to="/culturepage"
+              to="/kultur"
               className="text-indigo-500 inline-flex items-center"
             >
               Geri Dön
