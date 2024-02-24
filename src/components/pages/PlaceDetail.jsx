@@ -93,7 +93,7 @@ const PlaceDetail = () => {
               ></svg>
             </Link>
           </div>
-          <Map isLoaded={isLoaded} />
+          <Map isLoaded={isLoaded} storedGmlId={storedGmlId} />
         </div>
       </section>
     </>
