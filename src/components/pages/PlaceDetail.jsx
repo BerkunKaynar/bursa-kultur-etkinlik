@@ -21,7 +21,7 @@ const PlaceDetail = () => {
   useEffect(() => {
     const fetchData = async () => {
       // Asenkron işlemleri bekleyerek places verilerini al
-      const response = await fetch("/data/bursa_tarihimekanlar.csv");
+      const response = await fetch("/assets/bursa_tarihimekanlar.csv");
       const csvData = await response.text();
 
       const results = await new Promise((resolve) => {
