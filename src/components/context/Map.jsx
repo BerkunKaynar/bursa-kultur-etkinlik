@@ -33,6 +33,9 @@ export const Map = (props) => {
     const storedCenter = JSON.parse(localStorage.getItem("selectedCenter"));
     if (storedCenter) {
       setCenter(storedCenter);
+    } else {
+      // Eğer storedCenter yoksa, varsayılan değerleri kullan
+      setCenter(initialCenter);
     }
   }, []);
 
