@@ -35,17 +35,12 @@ export const Map = (props) => {
   }, [isLoaded, center]);
 
   // localstoragedaki center bilgisinde değişiklik olduğunda güncelle
-  useEffect(
-    () => {
-      const storedCenter = JSON.parse(localStorage.getItem("selectedCenter"));
-      if (storedCenter) {
-        setCenter(storedCenter);
-      }
-    },
-    [
-      /* Bağımlılıklarınızı buraya ekleyin */
-    ]
-  );
+  useEffect(() => {
+    const storedCenter = JSON.parse(localStorage.getItem("selectedCenter"));
+    if (storedCenter) {
+      setCenter(storedCenter);
+    }
+  }, [storedCenter]);
 
   return (
     <div className="flex justify-center">
