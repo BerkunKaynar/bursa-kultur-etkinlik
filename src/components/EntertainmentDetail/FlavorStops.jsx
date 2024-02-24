@@ -21,9 +21,9 @@ export const FlavorStops = () => {
           <div className="p-4 lg:w-1/2">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <img
-                alt="team"
+                alt="iskender"
                 className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                src="/src/assets/iskender.jpg"
+                src="/assets//iskender.jpg"
               />
               <div className="flex-grow sm:pl-8">
                 <h2
@@ -48,7 +48,7 @@ export const FlavorStops = () => {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                src="/src/assets/pideli.jpg"
+                src="/assets//pideli.jpg"
               />
               <div className="flex-grow sm:pl-8">
                 <h2
@@ -72,7 +72,7 @@ export const FlavorStops = () => {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                src="/src/assets/tahinli.jpg"
+                src="/assets//tahinli.jpg"
               />
               <div className="flex-grow sm:pl-8">
                 <h2
@@ -98,7 +98,7 @@ export const FlavorStops = () => {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                src="/src/assets/cantik.jpg"
+                src="/assets//cantik.jpg"
               />
               <div className="flex-grow sm:pl-8">
                 <h2

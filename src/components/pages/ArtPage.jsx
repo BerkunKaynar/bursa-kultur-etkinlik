@@ -31,7 +31,7 @@ const ArtPage = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="/src/assets/arkeoloji.jpg"
+                src="/assets/arkeoloji.jpg"
               />
             </div>
             <h2
@@ -52,7 +52,7 @@ const ArtPage = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="/src/assets/kentmuzesi.jpg"
+                src="/assets/kentmuzesi.jpg"
               />
             </div>
             <h2
@@ -73,7 +73,7 @@ const ArtPage = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="/src/assets/atatürkkosku.jpg"
+                src="/assets/atatürkkosku.jpg"
               />
             </div>
             <h2
@@ -95,7 +95,7 @@ const ArtPage = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="/src/assets/fetihmuzesi.jpg"
+                src="/assets/fetihmuzesi.jpg"
               />
             </div>
             <h2
@@ -117,7 +117,7 @@ const ArtPage = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="/src/assets/arabamuzesi.jpg"
+                src="/assets/arabamuzesi.jpg"
               />
             </div>
             <h2
@@ -138,7 +138,7 @@ const ArtPage = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="/src/assets/tayyare.jpg"
+                src="/assets/tayyare.jpg"
               />
             </div>
             <h2

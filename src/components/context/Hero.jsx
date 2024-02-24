@@ -21,7 +21,7 @@ export const Hero = () => {
           <img
             className="mt-10 object-cover object-center rounded"
             alt="hero"
-            src="/src/assets/ulusehir.png"
+            src="/assets//ulusehir.png"
           />
         </div>
       </div>

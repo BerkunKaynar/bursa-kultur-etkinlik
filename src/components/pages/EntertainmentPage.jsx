@@ -26,7 +26,7 @@ const EntertainmentPage = () => {
                 <img
                   alt="Hanlar Bölgesi"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="/src/assets/hanlar.jpg"
+                  src="/assets/hanlar.jpg"
                 />
                 <div className="w-full">
                   <h2
@@ -50,7 +50,7 @@ const EntertainmentPage = () => {
                 <img
                   alt="İskender Kebap"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="/src/assets/iskender.jpg"
+                  src="/assets/iskender.jpg"
                 />
                 <div className="w-full">
                   <h2
@@ -72,7 +72,7 @@ const EntertainmentPage = () => {
                 <img
                   alt="Uludağ"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="/src/assets/uludag1.jpg"
+                  src="/assets//uludag1.jpg"
                 />
                 <div className="w-full">
                   <h2
@@ -94,7 +94,7 @@ const EntertainmentPage = () => {
                 <img
                   alt="Mudanya"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="/src/assets/mudanya.jpg"
+                  src="/assets/mudanya.jpg"
                 />
                 <div className="w-full">
                   <h2

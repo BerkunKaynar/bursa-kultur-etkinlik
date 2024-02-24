@@ -7,7 +7,7 @@ export const Navbar = () => {
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <img
           style={{ height: "70px", width: "110px", marginRight: "15px" }}
-          src="./src/assets/bursa-logo.png"
+          src="/assets/bursa-logo.png"
           alt=""
         />
         <Link

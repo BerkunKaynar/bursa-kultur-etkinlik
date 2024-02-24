@@ -8,7 +8,7 @@ export const Shopping = () => {
           <img
             alt="ecommerce"
             className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded"
-            src="/src/assets/alisverisbursa.jpg"
+            src="/assets//alisverisbursa.jpg"
           />
           <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <h2 className="text-sm title-font text-gray-500 tracking-widest">
@@ -58,21 +58,21 @@ export const Shopping = () => {
             <img
               alt="Aynalı Çarşı"
               className="w-full object-cover h-full object-center block"
-              src="/src/assets/aynalicarsi.jpg"
+              src="/assets/aynalicarsi.jpg"
             />
           </div>
           <div className="md:p-2 p-1 w-1/2">
             <img
               alt="Havlucular Çarşısı"
               className="w-full object-cover h-full object-center block"
-              src="/src/assets/havlucular.jpg"
+              src="/assets/havlucular.jpg"
             />
           </div>
           <div className="md:p-2 p-1 w-full">
             <img
               alt="Koru Park"
               className="w-full h-full object-cover object-center block"
-              src="/src/assets/koru.jpg"
+              src="/assets/koru.jpg"
             />
           </div>
         </div>
@@ -81,21 +81,21 @@ export const Shopping = () => {
             <img
               alt="İpekçiler"
               className="w-full h-full object-cover object-center block"
-              src="/src/assets/ipekciler.jpg"
+              src="/assets/ipekciler.jpg"
             />
           </div>
           <div className="md:p-2 p-1 w-1/2">
             <img
               alt="Sur Yapı"
               className="w-full object-cover h-full object-center block"
-              src="/src/assets/suryap.jpg"
+              src="/assets/suryap.jpg"
             />
           </div>
           <div className="md:p-2 p-1 w-1/2">
             <img
               alt="Uzun Çarşı"
               className="w-full object-cover h-full object-center block"
-              src="/src/assets/uzuncarsi.jpg"
+              src="/assets/uzuncarsi.jpg"
             />
           </div>
         </div>

@@ -7,7 +7,7 @@ const Footer = () => {
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <img
             style={{ height: "70px", width: "110px", marginRight: "15px" }}
-            src="/src/assets/bursa-logo.png"
+            src="/assets/bursa-logo.png"
             alt="BBB"
           />
           <span style={{ color: "#255899" }} className="ml-3 text-xl">

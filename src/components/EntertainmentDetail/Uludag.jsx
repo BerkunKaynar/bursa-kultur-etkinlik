@@ -35,7 +35,7 @@ export const Uludag = () => {
           <img
             className="object-cover object-center rounded"
             alt="Uludağ"
-            src="/src/assets/uludag2.jpg"
+            src="/assets/uludag2.jpg"
           />
         </div>
       </div>
@@ -44,7 +44,7 @@ export const Uludag = () => {
       </div>
       <div className="container px-5 py-24 mx-auto">
         <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
-          <img className="rounded" src="/src/assets/kayak.png" />
+          <img className="rounded" src="/assets/kayak.png" />
           <p className="leading-relaxed text-lg">
             Uludağ, Türkiye'nin en popüler kayak destinasyonlarından biridir ve
             çeşitli zorluk derecelerine sahip kaliteli kayak pistleriyle

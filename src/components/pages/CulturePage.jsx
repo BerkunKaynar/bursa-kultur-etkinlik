@@ -46,7 +46,7 @@ const CulturePage = () => {
   };
 
   useEffect(() => {
-    const csvFilePath = "/src/data/bursa_tarihimekanlar.csv";
+    const csvFilePath = "/data/bursa_tarihimekanlar.csv";
 
     fetch(csvFilePath)
       .then((response) => response.text())

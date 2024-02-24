@@ -29,7 +29,7 @@ export const Sea = () => {
             <img
               alt="content"
               className="object-cover object-center h-full w-full"
-              src="/src/assets/trilye.jpg"
+              src="/assets/trilye.jpg"
             />
           </div>
         </div>
@@ -39,7 +39,7 @@ export const Sea = () => {
         <img
           className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
           alt="hero"
-          src="/src/assets/mudanya1.jpg"
+          src="/assets/mudanya1.jpg"
         />
         <div className="text-center lg:w-2/3 w-full">
           <h1

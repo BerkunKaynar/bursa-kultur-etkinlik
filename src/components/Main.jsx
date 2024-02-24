@@ -20,7 +20,7 @@ const Main = () => {
         muted
         loop
         className="fullscreen-video"
-        src="/src/assets/bursa-video.mp4"
+        src="/assets/bursa-video.mp4"
       ></video>
 
       <Hero />
