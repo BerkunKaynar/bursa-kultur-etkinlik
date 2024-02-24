@@ -23,7 +23,7 @@ export const Map = (props) => {
   const renderMap = useCallback(() => {
     return (
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
-        {isLoaded && <Marker position={{ center }} />}
+        {isLoaded && <Marker position={center} />}
       </GoogleMap>
     );
   }, [isLoaded, center]);
