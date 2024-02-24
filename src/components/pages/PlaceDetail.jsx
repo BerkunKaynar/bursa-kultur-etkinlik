@@ -12,7 +12,7 @@ const PlaceDetail = () => {
   const { gmlId } = useParams();
   const places = useSelector((state) => state.culture.places);
   const [selectedPlace, setSelectedPlace] = useState(null);
-  const place = places.find((p) => p.gml_id === gmlId);
+  const place = places.find((p) => p.gml_id === (gmlId || storedGmlId));
   const dispatch = useDispatch();
 
   // Local storage'dan gml_id'yi al
