@@ -1,8 +1,16 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Terminal üzerinden; 'npm install' komutlarıyla proje bağımlılıklarını indirin.
 
-Currently, two official plugins are available:
+Projeyi çalıştırmak içi 'npm run dev' komutunu kullanın.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Proje İçeriği:
+
+Bursa kültür ve etkinlik tanıtım projesi
+
+Proje içerisinde kullanılan teknolojiler :
+
+React.js - Vite, Google Maps Api, Papa Parse, Tailwind CSS, Açık Yeşil Bursa veri setlerinden 'Bursa Tarihi Mekanlar' veri seti
+
+Açık yeşil platformunda verileri api ile çekilmeye çalışıldı fakat api izinleri ve güvenliği sebebiyle CORS hatası alındı.
+Bu sebeple veri setleri projeye indirilerek CSV dosyasından Papa Parse kütüphanesiyle JSON'a çevirilerek projede kullanıldı.
