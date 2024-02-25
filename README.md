@@ -16,3 +16,7 @@ Veriler Açık Yeşil Bursa veri setlerinden 'Tarihi Mekanlar' veri setinden al�
 
 Açık yeşil platformunda verileri api ile çekilmeye çalışıldı fakat api izinleri ve güvenliği sebebiyle CORS hatası alındı.
 Bu sebeple veri setleri projeye indirilerek CSV dosyasından Papa Parse kütüphanesiyle JSON'a çevirilerek projede kullanıldı.
+
+Vercel domain adresi:
+
+bursa-kultur-etkinlik.vercel.app
