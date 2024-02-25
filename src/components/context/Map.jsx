@@ -9,8 +9,8 @@ export const Map = (props) => {
     height: "400px",
   };
 
-  // localstorage dan çek
-  const storedCenter = JSON.parse(localStorage.getItem("selectedCenter"));
+  // localstorage'dan çek
+  const storedCenter = JSON.parse(localStorage.getItem("selectedGeojson"));
 
   const initialCenter = storedCenter || {
     lat: 40.192169921,
@@ -30,9 +30,17 @@ export const Map = (props) => {
 
   // localstoragedaki center bilgisinde değişiklik olduğunda güncelle
   useEffect(() => {
-    const storedCenter = JSON.parse(localStorage.getItem("selectedCenter"));
-    if (storedCenter) {
-      setCenter(storedCenter);
+    const storedCenter = JSON.parse(localStorage.getItem("selectedGeojson"));
+    if (
+      storedCenter &&
+      storedCenter.coordinates &&
+      storedCenter.coordinates.length === 2
+    ) {
+      const newCenter = {
+        lat: storedCenter.coordinates[1],
+        lng: storedCenter.coordinates[0],
+      };
+      setCenter(newCenter);
     }
   }, []);
 
