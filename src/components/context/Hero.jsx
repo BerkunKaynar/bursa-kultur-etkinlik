@@ -45,7 +45,7 @@ export const Hero = () => {
         </p>
         <div className="flex justify-center">
           <Link
-            to="/entertainmentpage"
+            to="/eglence"
             style={{ background: "#14b8a6" }}
             className=" text-white border-0 py-2 px-6 rounded text-lg"
           >
